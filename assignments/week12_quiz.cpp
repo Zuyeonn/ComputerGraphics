@@ -1,5 +1,3 @@
-// 11ÁÖÂ÷ ÄûÁî1
-
 #include <iostream>
 #include <glut.h> 
 #include <gl/glu.h>
@@ -30,7 +28,7 @@ void display()
 	glPushMatrix();
 	glTranslatef(0.3, 0, 0);
 	glRotatef(spin, 0.0, 1.0, 0.0);
-	spin += 0.3;		 // È¸Àü ¼Óµµ Á¶Àı
+	spin += 0.3;		 // ÃˆÂ¸Ã€Ã¼ Â¼Ã“ÂµÂµ ÃÂ¶Ã€Ã½
 	glLightfv(GL_LIGHT0, GL_POSITION, position);
 
 	// Skyblue LIGHT Cube Display
